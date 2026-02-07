@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ACE Engineering College</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f9;
+            margin: 0;
+            padding: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        /* Department buttons */
+        .departments {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .departments button {
+            padding: 10px 18px;
+            margin: 5px;
+            border: none;
+            border-radius: 6px;
+            color: white;
+            font-size: 14px;
+            cursor: pointer;
+        }
+
+        .cso {
+            background-color: #5dade2;
+        }
+
+        .csd {
+            background-color: #58d68d;
+        }
+
+        .mech {
+            background-color: #dc7633;
+        }
+
+        /* Students section */
+        .container {
+            max-width: 350px;
+        }
+
+        h2 {
+            margin-bottom: 15px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            margin-bottom: 15px;
+        }
+
+        .name {
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .dept {
+            color: gray;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>ACE Engineering College</h1>
+
+    <div class="departments">
+        <button class="cso" onclick="showStudents('CSO')">CSO Department</button>
+        <button class="csd" onclick="showStudents('CSD')">CSD Department</button>
+        <button class="mech" onclick="showStudents('MECH')">Mechanical Department</button>
+    </div>
+
+    <div class="container">
+        <h2>Our Students</h2>
+
+        <div id="students"></div>
+    </div>
+
+    <script>
+        const studentsData = {
+            CSO: [
+                { name: "Rahul", dept: "CSO" },
+                { name: "Anita", dept: "CSO" },
+                { name: "Suresh", dept: "CSO" }
+            ],
+            CSD: [
+                { name: "Goutham", dept: "CSD" },
+                { name: "Sairam", dept: "CSD" }
+            ],
+            MECH: [
+                { name: "Ramesh", dept: "Mechanical" },
+                { name: "Vikram", dept: "Mechanical" }
+            ]
+        };
+
+        function showStudents(dept) {
+            const container = document.getElementById("students");
+            container.innerHTML = "";
+
+            studentsData[dept].forEach(student => {
+                const card = document.createElement("div");
+                card.className = "card";
+
+                card.innerHTML = `
+                    <div class="name">${student.name}</div>
+                    <div class="dept">${student.dept}</div>
+                `;
+
+                container.appendChild(card);
+            });
+        }
+
+        // Load default department
+        showStudents("CSD");
+    </script>
+
+</body>
+</html>
