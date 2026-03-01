@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <script>
+function validateRegistration() {
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let password = document.getElementById("password").value;
+    let confirmPassword = document.getElementById("confirmPassword").value;
+
+    if (name === "") {
+        alert("Name should not be empty");
+        return false;
+    }
+
+    let emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!email.match(emailPattern)) {
+        alert("Enter a valid email");
+        return false;
+    }
+
+    if (password.length < 6) {
+        alert("Password must be at least 6 characters");
+        return false;
+    }
+
+    if (password !== confirmPassword) {
+        alert("Passwords do not match");
+        return false;
+    }
+
+    alert("Registration Successful");
+    return true;
+}
+</script>
+    </head>
+<form onsubmit="return validateRegistration()">
+    <label>Name:</label>
+    <input type="text" id="name"><br><br>
+
+    <label>Email:</label>
+    <input type="text" id="email"><br><br>
+
+    <label>Password:</label>
+    <input type="password" id="password"><br><br>
+
+    <label>Confirm Password:</label>
+    <input type="password" id="confirmPassword"><br><br>
+
+    <input type="submit" value="Register">
+</form>
+
+</html>
