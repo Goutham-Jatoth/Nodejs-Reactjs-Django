@@ -1,0 +1,29 @@
+body{font-family:Arial;text-align:center;background:#f2f2f2}
+
+/* Flex for forms */
+.form{
+display:flex;
+flex-direction:column;
+width:200px;
+margin:100px auto;
+gap:10px;
+}
+
+/* Grid for products */
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:20px;
+padding:20px;
+}
+
+.card,.cart{
+background:white;
+padding:15px;
+box-shadow:0 0 5px gray;
+}
+
+/* Responsive */
+@media(max-width:600px){
+.grid{grid-template-columns:1fr;}
+}
