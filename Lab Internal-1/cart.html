@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="loadCart()">
+
+<div class="navbar">
+  <h2>Your Cart</h2>
+  <div>
+    <a href="catalog.html">Home</a>
+  </div>
+</div>
+
+<div class="cart-container">
+  <table>
+    <thead>
+      <tr>
+        <th>Product</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody id="cartTable">
+    </tbody>
+  </table>
+
+  <h3>Total: <span id="total"></span></h3>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
