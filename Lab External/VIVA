@@ -1,0 +1,316 @@
+🔥 EXPERIMENT 1: HTML & CSS (Q1–Q15)
+What is HTML?
+→ Used to create web page structure.
+What is CSS?
+→ Used to style web pages.
+What is a form?
+→ Used to collect user input.
+What is <input>?
+→ Field to take user data.
+What is <label>?
+→ Describes input field.
+What is <div>?
+→ Container element.
+What is class in CSS?
+→ Used to style multiple elements.
+What is id?
+→ Unique identifier.
+Difference between class and id?
+→ Class = multiple, id = single.
+What is margin?
+→ Space outside element.
+What is padding?
+→ Space inside element.
+What is responsive design?
+→ Works on all devices.
+What is flexbox?
+→ Layout system for alignment.
+What is grid?
+→ 2D layout system.
+What is media query?
+→ Used for responsiveness.
+🔥 EXPERIMENT 2: Catalog & Cart (Q16–Q30)
+What is catalog page?
+→ Displays products.
+What is cart?
+→ Stores selected items.
+What is client-side validation?
+→ Validation in browser.
+Why validation?
+→ To prevent wrong input.
+What is required attribute?
+→ Makes field mandatory.
+What is pattern attribute?
+→ Validates format.
+What is placeholder?
+→ Hint text in input.
+What is button tag?
+→ Used for actions.
+What is onclick?
+→ Event handler.
+What is JavaScript?
+→ Adds interactivity.
+What is alert()?
+→ Shows popup message.
+What is function?
+→ Block of code.
+What is event?
+→ User action.
+What is localStorage?
+→ Stores data in browser.
+Why cart uses localStorage?
+→ To save items.
+🔥 EXPERIMENT 3: JS Validation (Q31–Q45)
+What is validation?
+→ Checking user input.
+What is email validation?
+→ Check email format.
+What is password validation?
+→ Check length/rules.
+What is getElementById()?
+→ Access element.
+What is .value?
+→ Gets input value.
+What is return false?
+→ Stops form submit.
+What is regex?
+→ Pattern matching.
+What is length property?
+→ Counts characters.
+What is if condition?
+→ Decision making.
+What is else?
+→ Alternative condition.
+What is boolean?
+→ True/False.
+What is submit event?
+→ Form submission.
+What is preventDefault()?
+→ Stops default action.
+Why use JS validation?
+→ Faster response.
+Difference HTML vs JS validation?
+→ HTML basic, JS advanced.
+🔥 EXPERIMENT 4 & 5: Bootstrap (Q46–Q60)
+What is Bootstrap?
+→ CSS framework.
+Why Bootstrap?
+→ Easy responsive design.
+What is container?
+→ Main layout wrapper.
+What is row?
+→ Horizontal section.
+What is column?
+→ Vertical division.
+What is grid system?
+→ 12 column layout.
+What is navbar?
+→ Navigation bar.
+What is card?
+→ Content box.
+What is button class?
+→ Styled button.
+What is form-control?
+→ Styled input.
+What is responsive class?
+→ Adapts screen size.
+What is col-md-6?
+→ Half width on medium screen.
+What is CDN?
+→ Online library link.
+Why CDN?
+→ No download needed.
+Difference CSS vs Bootstrap?
+→ CSS custom, Bootstrap ready.
+🔥 EXPERIMENT 6: CRUD (Q61–Q75)
+What is CRUD?
+→ Create, Read, Update, Delete.
+What is database?
+→ Stores data.
+What is table?
+→ Data in rows/columns.
+What is primary key?
+→ Unique identifier.
+What is insert?
+→ Add data.
+What is select?
+→ Read data.
+What is update?
+→ Modify data.
+What is delete?
+→ Remove data.
+What is SQL?
+→ Query language.
+What is backend?
+→ Server side.
+What is frontend?
+→ User interface.
+What is connection?
+→ Link to database.
+What is JDBC?
+→ Java DB connection.
+What is query?
+→ Command to DB.
+Why CRUD needed?
+→ Manage data.
+🔥 EXPERIMENT 7: Weather API (Q76–Q90)
+What is API?
+→ Interface to get data.
+What is weather API?
+→ Provides weather data.
+What is fetch()?
+→ Get API data.
+What is JSON?
+→ Data format.
+What is async?
+→ Runs asynchronously.
+What is await?
+→ Wait for result.
+What is promise?
+→ Future result.
+What is arrow function?
+→ Short function syntax.
+What is response.json()?
+→ Convert data.
+What is temperature?
+→ Weather value.
+What is humidity?
+→ Moisture level.
+What is API key?
+→ Access token.
+What is error handling?
+→ Handle failures.
+Why use API?
+→ Real-time data.
+What is DOM update?
+→ Show data on page.
+🔥 EXPERIMENT 8: XML (Q91–Q100)
+What is XML?
+→ Stores data.
+Full form of XML?
+→ Extensible Markup Language.
+What is tag?
+→ Data label.
+What is element?
+→ Tag + value.
+What is root element?
+→ Main element.
+What is parsing?
+→ Reading XML.
+What is DOM?
+→ Access XML data.
+What is XMLHttpRequest?
+→ Load XML.
+Difference XML vs HTML?
+→ XML stores, HTML displays.
+Final answer (if stuck)?
+→ “XML stores data, JS parses it, HTML displays it.”
+
+
+
+🔥 EXTRA VIVA Q&A (101–150)
+🔹 HTML & CSS
+What is semantic HTML?
+→ Tags with meaning (e.g., <header>, <footer>).
+What is inline CSS?
+→ CSS inside tag using style.
+What is internal CSS?
+→ CSS inside <style> tag.
+What is external CSS?
+→ CSS in separate file.
+Which CSS has highest priority?
+→ Inline CSS.
+What is display property?
+→ Controls element layout.
+What is display: none?
+→ Hides element.
+What is visibility: hidden?
+→ Hides but keeps space.
+What is z-index?
+→ Controls stacking order.
+What is position property?
+→ Controls element placement.
+🔹 Forms & Validation
+What is input type="email"?
+→ Accepts valid email only.
+What is input type="password"?
+→ Hides input text.
+What is maxlength?
+→ Limits input length.
+What is minlength?
+→ Minimum characters.
+What is required field?
+→ Must be filled.
+What is form action?
+→ Where data is sent.
+What is method GET?
+→ Data in URL.
+What is method POST?
+→ Data hidden.
+Difference GET vs POST?
+→ GET visible, POST secure.
+What is reset button?
+→ Clears form.
+🔹 JavaScript
+What is variable?
+→ Stores value.
+Types of variables?
+→ var, let, const.
+Difference let vs var?
+→ let block scope, var global.
+What is const?
+→ Constant value.
+What is console.log()?
+→ Prints output in console.
+What is NaN?
+→ Not a number.
+What is undefined?
+→ No value assigned.
+What is null?
+→ Empty value.
+What is array?
+→ List of values.
+What is object?
+→ Key-value pair.
+🔹 Bootstrap
+What is btn class?
+→ Styled button.
+What is btn-primary?
+→ Blue button.
+What is card-header?
+→ Card top section.
+What is navbar-expand?
+→ Responsive navbar.
+What is d-flex?
+→ Flex display.
+What is justify-content?
+→ Align horizontally.
+What is align-items?
+→ Align vertically.
+What is gap?
+→ Space between items.
+What is shadow class?
+→ Adds shadow.
+What is rounded class?
+→ Rounded corners.
+🔹 Database / CRUD
+What is schema?
+→ Structure of database.
+What is row?
+→ Record.
+What is column?
+→ Field.
+What is constraint?
+→ Rule on data.
+What is NOT NULL?
+→ Cannot be empty.
+What is UNIQUE?
+→ No duplicate values.
+What is default value?
+→ Auto assigned value.
+What is join?
+→ Combine tables.
+What is index?
+→ Improves speed.
+What is transaction?
+→ Group of operations.
