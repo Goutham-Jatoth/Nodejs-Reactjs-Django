@@ -1,0 +1,38 @@
+✅ Step 1: Create Files
+
+Create a folder (example: xml-bookstore)
+
+Inside it, create 2 files:
+
+1️⃣ books.xml
+
+Paste your XML code
+
+2️⃣ index.html
+
+Paste your HTML + JavaScript code
+
+✅ Step 2: Open in VS Code
+
+Open the folder in Visual Studio Code
+
+❗ Step 3 (IMPORTANT)
+
+👉 DO NOT open index.html by double-click
+
+It will NOT work (XML won’t load)
+
+✅ Step 4: Use Live Server
+Install extension → Live Server
+Right-click on index.html
+Click "Open with Live Server"
+✅ Step 5: Run
+Browser will open automatically
+Click “Show Books” button
+✅ Output
+
+👉 You will see:
+
+Title	Author	Price
+Java	James	500
+Python	Guido	600
