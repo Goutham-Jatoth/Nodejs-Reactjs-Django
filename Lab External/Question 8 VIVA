@@ -1,0 +1,421 @@
+1. What is XML?
+
+XML is used to store and transport data.
+
+2. What is the full form of XML?
+
+Extensible Markup Language
+
+3. What is the use of XML?
+
+To store and share structured data.
+
+4. What is a tag in XML?
+
+A tag defines a data element (e.g., <title>).
+
+5. What is an element?
+
+An element is data between tags.
+
+6. What is the root element?
+
+The main parent element (e.g., <books>).
+
+7. What is XML parsing?
+
+Reading XML data and extracting values.
+
+8. Which object is used to read XML in JavaScript?
+
+XMLHttpRequest
+
+9. What is DOM in XML?
+
+Document Object Model used to access XML data.
+
+10. How to access XML elements in JavaScript?
+
+Using getElementsByTagName().
+
+11. What is structured format?
+
+Data arranged in rows and columns (table).
+
+12. Why XML is used in this experiment?
+
+To store book details.
+
+13. What is the difference between HTML and XML?
+
+HTML → displays data
+XML → stores data
+
+14. What are child nodes?
+
+Elements inside another element.
+
+15. What is nodeValue?
+
+It gives the value of an element.
+
+16. What is the purpose of table in output?
+
+To show data in organized form.
+
+17. Can XML be used without HTML?
+
+Yes, but HTML is used to display it.
+
+18. What is well-formed XML?
+
+XML with proper opening and closing tags.
+
+19. What happens if XML is not correct?
+
+It gives an error.
+
+20. Why use JavaScript with XML?
+
+To read and display XML data.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21. What is a markup language?
+
+A language that uses tags to define data.
+
+22. Is XML case sensitive?
+
+Yes, XML is case sensitive.
+
+23. Can XML store multiple records?
+
+Yes, using multiple elements.
+
+24. What is an attribute in XML?
+
+Extra information inside a tag.
+
+👉 Example: <book id="1">
+
+25. What is the difference between tag and attribute?
+
+Tag → holds data
+Attribute → gives extra info
+
+26. What is responseXML?
+
+It is used to get XML data from request.
+
+27. What is innerHTML?
+
+Used to display data inside HTML element.
+
+28. What is XMLHttpRequest?
+
+Used to load XML file.
+
+29. What does open() do?
+
+It prepares request to read file.
+
+30. What does send() do?
+
+It sends request to get data.
+
+31. What is loop used for in XML parsing?
+
+To read all records one by one.
+
+32. What is table tag used for?
+
+To display data in rows and columns.
+
+33. What is <tr>?
+
+Table row.
+
+34. What is <td>?
+
+Table data (cell).
+
+35. What is <th>?
+
+Table heading.
+
+36. What is the role of JavaScript here?
+
+To read and display XML data.
+
+37. Can XML replace database?
+
+No, it is used for data storage, not full DB.
+
+38. What is a node in XML?
+
+Each element is called a node.
+
+39. What is childNodes?
+
+Elements inside another element.
+
+40. Why XML is platform independent?
+
+It works on any system or language.
+
+41. What is difference between JSON and XML?
+
+JSON → lightweight
+XML → uses tags
+
+42. Which is faster XML or JSON?
+
+JSON is faster.
+
+43. What is validation in XML?
+
+Checking if XML structure is correct.
+
+44. What is DTD?
+
+Defines structure of XML.
+
+45. What is XSD?
+
+Advanced version of DTD.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. What did you do in this experiment?
+
+I created an XML file to store book details and displayed it using JavaScript.
+
+2. Why did you use XML?
+
+To store structured data.
+
+3. What is XML?
+
+XML is used to store and transport data.
+
+4. What is the root element in your program?
+
+<books>
+
+5. How many elements are there in one book?
+
+3 → title, author, price
+
+6. How did you display XML data?
+
+Using JavaScript and table.
+
+7. Which method did you use to read XML?
+
+XMLHttpRequest
+
+8. How did you access elements?
+
+Using getElementsByTagName().
+
+9. How did you get the value of data?
+
+Using .innerHTML or nodeValue.
+
+10. Why did you use loop?
+
+To display multiple books.
+
+11. What is parsing?
+
+Reading and extracting data from XML.
+
+12. What happens if XML file is wrong?
+
+It gives an error.
+
+13. Can you add more books?
+
+Yes, by adding more <book> elements.
+
+14. Where is XML stored?
+
+As a separate file (books.xml).
+
+15. What is the output?
+
+Book details displayed in a table format.
+
+16. Difference between XML and HTML?
+
+XML → stores data
+HTML → displays data
+
+17. Why use table in output?
+
+To show data in structured form.
+
+18. Can this work without JavaScript?
+
+No, JavaScript is needed to parse XML.
+
+19. What is a tag?
+
+A label used to define data.
+
+20. Is XML case sensitive?
+
+Yes.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+21. What is the structure of your XML file?
+
+Root → <books> → multiple <book> elements.
+
+22. What is inside each <book>?
+
+<title>, <author>, <price>.
+
+23. Can XML have multiple root elements?
+
+No, only one root element.
+
+24. What is well-formed XML?
+
+XML with proper tags and structure.
+
+25. What is the difference between well-formed and valid XML?
+
+Well-formed → correct syntax
+Valid → follows DTD/XSD
+
+26. Why do we use JavaScript here?
+
+To read and display XML data.
+
+27. What is DOM in your program?
+
+It is used to access XML elements.
+
+28. What does getElementsByTagName() return?
+
+A list of elements.
+
+29. Why do you use [0] in code?
+
+To get the first element value.
+
+30. What is the use of for loop?
+
+To read all books one by one.
+
+31. What is the use of <table>?
+
+To display data in rows and columns.
+
+32. Can XML store numbers and text?
+
+Yes, both.
+
+33. What is the extension of XML file?
+
+.xml
+
+34. Where do you write XML code?
+
+In a separate XML file.
+
+35. What is the difference between XML and database?
+
+XML → simple storage
+Database → complex data management
+
+36. Can we edit XML easily?
+
+Yes, it is human readable.
+
+37. What is the advantage of XML?
+
+Simple, flexible, platform independent.
+
+38. What is the disadvantage of XML?
+
+More tags → larger size.
+
+39. What is onload function?
+
+Runs code after XML is loaded.
+
+40. What happens when button is clicked?
+
+XML data is loaded and displayed.
+
+41. What is open() in your code?
+
+It opens request to XML file.
+
+42. What is send()?
+
+It sends request to fetch data.
+
+43. What is responseXML?
+
+It contains the XML data received.
+
+44. Can XML be used in real applications?
+
+Yes, for data exchange.
+
+45. What is the main aim of this experiment?
+
+To store XML data and display it in structured format.
