@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book Store</title>
+</head>
+
+<body>
+<h2>Book Store</h2>
+<button onclick="loadXML()">Show Books</button>
+<table border="1" id="table">
+<tr>
+<th>Title</th>
+<th>Author</th>
+<th>Price</th>
+</tr>
+</table>
+<script>
+function loadXML(){
+let xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function(){
+if(this.readyState == 4 && this.status == 200){
+let xml = this.responseXML;
+let books = xml.getElementsByTagName("book");
+for(let i=0;i<books.length;i++){
+let row = "<tr>" +
+"<td>"+books[i].getElementsByTagName("title")[0].childNodes[0].nodeValue+"</td>" +
+"<td>"+books[i].getElementsByTagName("author")[0].childNodes[0].nodeValue+"</td>" +
+"<td>"+books[i].getElementsByTagName("price")[0].childNodes[0].nodeValue+"</td>" +
+"</tr>";
+document.getElementById("table").innerHTML += row;
+}
+}
+};
+xhttp.open("GET","books.xml",true);
+xhttp.send();
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<bookstore>
+<book>
+<title>Java</title>
+<author>James</author>
+<price>500</price>
+</book>
+
+<book>
+<title>Python</title>
+<author>Guido</author>
+<price>600</price>
+</book>
+
+<book>
+<title>Web Dev</title>
+<author>John</author>
+<price>450</price>
+</book>
+</bookstore>
