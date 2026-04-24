@@ -1,0 +1,25 @@
+📄 books.xml
+<books>
+<book><title>Java</title><author>James</author><price>500</price></book>
+<book><title>Python</title><author>Guido</author><price>600</price></book>
+</books>
+
+📄 index.html
+<html>
+<body>
+
+<button onclick="f()">Show</button>
+<table border="1" id="t"></table>
+
+<script>
+function f(){
+let x=new XMLHttpRequest();
+x.onload=function(){
+let b=this.responseXML.getElementsByTagName("book");
+for(let i=0;i<b.length;i++){
+t.innerHTML+="<tr><td>"+b[i].children[0].innerHTML+
+"</td><td>"+b[i].children[1].innerHTML+
+"</td><td>"+b[i].children[2].innerHTML+"</td></tr>";
+}
+};
+x.open("GET","books.xml");x.send();
