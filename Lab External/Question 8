@@ -1,0 +1,100 @@
+Aim:- To design a bookstore using XML and display book details in a structured format.
+
+Description:-
+An XML file is created to store book details.
+Using JavaScript, the XML data is parsed and displayed on a web page.
+
+Files Required:-
+books.xml
+index.html
+
+
+books.xml
+
+<?xml version="1.0"?>
+<bookstore>
+<book>
+<title>Java</title>
+<author>James</author>
+<price>500</price>
+</book>
+
+<book>
+<title>Python</title>
+<author>Guido</author>
+<price>600</price>
+</book>
+
+<book>
+<title>Web Dev</title>
+<author>John</author>
+<price>450</price>
+</book>
+</bookstore>
+
+
+
+index.html
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book Store</title>
+</head>
+
+<body>
+<h2>Book Store</h2>
+<button onclick="loadXML()">Show Books</button>
+<table border="1" id="table">
+<tr>
+<th>Title</th>
+<th>Author</th>
+<th>Price</th>
+</tr>
+</table>
+<script>
+function loadXML(){
+let xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function(){
+if(this.readyState == 4 && this.status == 200){
+let xml = this.responseXML;
+let books = xml.getElementsByTagName("book");
+for(let i=0;i<books.length;i++){
+let row = "<tr>" +
+"<td>"+books[i].getElementsByTagName("title")[0].childNodes[0].nodeValue+"</td>" +
+"<td>"+books[i].getElementsByTagName("author")[0].childNodes[0].nodeValue+"</td>" +
+"<td>"+books[i].getElementsByTagName("price")[0].childNodes[0].nodeValue+"</td>" +
+"</tr>";
+document.getElementById("table").innerHTML += row;
+}
+}
+};
+xhttp.open("GET","books.xml",true);
+xhttp.send();
+}
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+Aim:- To read (parse) XML data and display it in a table format on a web page.
+
+Description:-
+The XML file stores book details.
+Using JavaScript, the XML is read and converted into table rows and shown on the screen.
+
+Softwares / Technologies Used:-
+HTML
+XML
+JavaScript
+VS Code
+Web Browser
+
+Expected Output:- When the user clicks Load Data, the book details should appear in a table format.
+
+Actual Output:- After running the program, the book details are successfully displayed in a table on the web page.
